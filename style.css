@@ -7,9 +7,8 @@ body {
 .site-topo {
     text-align: center;
     background-color: #1e123c;
-    padding: 30px 10px;
     border-radius: 15px;
-    
+    padding: 30px 10px;
 }
 
 .site-topo h1 {
@@ -54,6 +53,9 @@ hr {
     text-align: center;
     border: 1px solid #3c2a70;
     transition: transform 0.2s;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .card:hover {
