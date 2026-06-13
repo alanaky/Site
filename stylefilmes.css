@@ -2,6 +2,27 @@ body {
     background-color: #120924;
     color: #ffffff;
     font-family: system-ui, sans-serif;
+    background-image: url(imagem/espaco.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.topo {
+    text-align: center;
+}
+
+.topo h1 {
+    margin-bottom: 10px;
+    color: #9d4edd;
+    font-weight: 800;
+}
+
+.topo h2 {
+    margin-top: 0px;
+    color: #cbb2ff;
+    font-weight: 700;
 }
 
 .tampa {
@@ -19,9 +40,13 @@ body {
     color: #ffffff;
     font-weight: 700;
     text-align: center;
-    padding: 200px 10px;
+    padding: 10px 5px;
     font-size: 16px;
     position: absolute;
+    background-color: rgba(18, 9, 36, 0.7);
+    bottom: 0;
+    left: 0;
+    border-radius: 15px;
 }
 
 .caixa {
